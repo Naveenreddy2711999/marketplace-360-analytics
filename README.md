@@ -85,3 +85,18 @@ Author
 Tiyyagura Naveen Reddy
 
 Data Analytics | SQL | Python | PostgreSQL | Tableau
+
+---
+
+## 📊 Dashboard Previews
+
+### Executive Business Performance
+
+**Executive KPI Overview**
+
+![Executive KPI Dashboard](screenshots/executive_kpis.png)
+
+**Executive Business Performance Charts**
+
+![Executive Dashboard Charts](screenshots/executive_charts.png)
+
