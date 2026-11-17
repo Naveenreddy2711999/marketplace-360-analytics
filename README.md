@@ -116,3 +116,7 @@ Data Analytics | SQL | Python | PostgreSQL | Tableau
 **Executive Business Performance Charts**
 
 ![Executive Dashboard Charts](screenshots/executive_charts.png)
+
+### Customer & Operations Insights
+
+![Customer and Operations Dashboard](screenshots/customer_operations_charts.png)
