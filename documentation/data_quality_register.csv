@@ -1,0 +1,9 @@
+table,issue,observed_result,severity,planned_treatment
+order_reviews,Duplicate review_id values,814 rows have a review_id appearing more than once,High,Retain records; investigate repeated IDs before defining a unique key
+order_reviews,Multiple review records per order,551 duplicate order_id occurrences,Medium,Preserve one-to-many relationship; do not force one review per order
+orders,Carrier date before purchase date,166 records,Medium,Preserve original timestamps; flag records as chronology exceptions. Investigate possible recording or timezone inconsistencies.
+orders,Delivery date before carrier date,23 records,Medium,Preserve original timestamps; flag records and exclude them from carrier-to-customer delivery duration calculations.
+orders,Delivered after estimated date,"7,826 of 96,470 delivered orders with both dates",Informational,Retain as a preliminary late-delivery KPI; apply documented chronology-quality checks before final reporting.
+products,Missing product attributes,610 missing category/name/description/photo values; 2 missing weight/dimension values,Medium,Retain products; handle missing attributes according to analysis needs
+products,Untranslated category names,2 category names have no English translation,Low,Preserve original names and create documented display labels
+order_reviews,Missing review comments,"87,656 missing titles and 58,247 missing messages",Informational,Keep missing comments as null; do not interpret them as negative reviews

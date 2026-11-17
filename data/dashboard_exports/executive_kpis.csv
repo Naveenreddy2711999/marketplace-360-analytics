@@ -1,0 +1,2 @@
+total_orders,delivered_orders,unique_customers,total_merchandise_value,total_freight_value,total_payment_value,average_merchandise_value_per_order,late_orders,eligible_delivery_orders,late_delivery_rate_pct,average_delivery_days,repeat_customers,repeat_customer_rate_pct,average_review_score
+99441,96478,96096,13591643.7,2251909.54,16008872.12,136.68,7826,96470,8.11,12.56,2997,3.12,4.09

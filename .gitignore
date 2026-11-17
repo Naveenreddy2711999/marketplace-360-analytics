@@ -1,0 +1,27 @@
+# Original raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Tableau temporary files
+*.tmp
+
+# Older intermediate exports
+data/cleaned/
